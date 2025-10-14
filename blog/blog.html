@@ -1,1 +1,86 @@
-Hello the world of blogs
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Updates Blog | Allamiro</title>
+  <meta name="description" content="Discover the GitHub projects Allamiro is actively shipping with detailed release notes and learnings.">
+  <link rel="icon" href="../assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-icon-180x180.png">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="../index.html" aria-label="Back to homepage">Allamiro</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" data-nav>
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../projects.html">Projects</a>
+        <a href="./blog.html" aria-current="page">Blog</a>
+        <a href="../repositories.html">Repositories</a>
+        <a href="../data.html">Data</a>
+        <a href="../components.html">Components</a>
+        <a class="cta" href="mailto:tamirsuliman@gmail.com">Email</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Project journal</p>
+        <h1>Latest contributions &amp; shipping notes</h1>
+        <p class="lead">
+          A running log of repositories I'm actively improving. Each post spotlights hands-on work—no dormant forks, just meaningful updates and lessons learned along the way.
+        </p>
+        <div class="hero-meta">
+          <span class="hero-count" data-count>Loading contributions…</span>
+          <a class="hero-link" href="https://github.com/allamiro" target="_blank" rel="noopener">Follow on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="posts-section">
+      <div class="container">
+        <div class="posts-toolbar">
+          <h2>Project highlights</h2>
+          <p>Curated automatically from repositories I maintain and recently pushed to.</p>
+        </div>
+
+        <div class="status-banner" data-status role="status" aria-live="polite">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="status-text">Fetching project updates…</span>
+        </div>
+
+        <div class="posts-grid" data-posts aria-live="polite" aria-busy="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span data-year></span> Allamiro. Built with curiosity and continuous learning.</p>
+      <div class="footer-links">
+        <a href="https://github.com/allamiro" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/allamiroo" target="_blank" rel="noopener">Twitter</a>
+        <a href="mailto:tamirsuliman@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="noscript-message">
+      Enable JavaScript to load the latest GitHub activity. You can still explore my repositories directly on <a href="https://github.com/allamiro" target="_blank" rel="noopener">GitHub</a>.
+    </div>
+  </noscript>
+
+  <script src="../assets/js/site.js" defer></script>
+</body>
+</html>

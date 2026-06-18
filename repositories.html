@@ -62,32 +62,56 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <h2>Core categories</h2>
-          <p>Explore the high-level buckets that organize my GitHub work. Each category links to projects with ongoing commits.</p>
+          <h2>Security &amp; compliance engineering</h2>
+          <p>Tooling for auditing, hardening, and standardizing security operations across Red Hat and enterprise environments.</p>
         </div>
         <div class="card-grid">
           <article class="card">
-            <span class="pill">Data Pipelines</span>
-            <h3>Streaming &amp; analytics stacks</h3>
-            <p>Infrastructure-as-code modules, orchestration scripts, and monitoring assets that make data operations dependable.</p>
+            <span class="pill">PowerShell · Shell</span>
+            <h3><a href="https://github.com/allamiro/rSCAP" target="_blank" rel="noopener">rSCAP</a></h3>
+            <p>A standardized SCAP compliance-checking and auditing solution for Red Hat–based Linux, mapped to NIST controls for vulnerability assessment.</p>
             <div class="card-footer">
-              <span>Highlights Kafka, Airflow, dbt</span>
+              <span>★ 2 · Compliance auditing</span>
             </div>
           </article>
           <article class="card">
-            <span class="pill">Automation</span>
-            <h3>Developer productivity tooling</h3>
-            <p>Reusable CLI utilities, Bash workflows, and GitHub Action templates that accelerate day-to-day engineering.</p>
+            <span class="pill">HTML · DISA</span>
+            <h3><a href="https://github.com/allamiro/stig-manager" target="_blank" rel="noopener">stig-manager</a></h3>
+            <p>A deployment of DISA STIG Manager behind a proxy, supporting accreditation, eMASS, and SRG/STIG security-audit workflows.</p>
             <div class="card-footer">
-              <span>Focus on maintainability</span>
+              <span>★ 2 · Accreditation</span>
             </div>
           </article>
           <article class="card">
-            <span class="pill">Learning Labs</span>
-            <h3>Guides &amp; workshop content</h3>
-            <p>Tutorial repositories that include curriculum, sample datasets, and walkthroughs for emerging practitioners.</p>
+            <span class="pill">Python · SIEM</span>
+            <h3><a href="https://github.com/allamiro/cee-server" target="_blank" rel="noopener">cee-server</a></h3>
+            <p>A Python implementation of the Common Event Expression (CEE) server—unifying schema, taxonomy, and log syntax for interoperable event handling.</p>
             <div class="card-footer">
-              <span>Built for community sharing</span>
+              <span>Log standardization</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Python · CEF</span>
+            <h3><a href="https://github.com/allamiro/JSON-SYSLOG-TO-CEF" target="_blank" rel="noopener">JSON-SYSLOG-TO-CEF</a></h3>
+            <p>Python scripts that parse logs from Logstash, Beats, and syslog tooling and convert them into ArcSight CEF format for SIEM ingestion.</p>
+            <div class="card-footer">
+              <span>★ 3 · Log conversion</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Dockerfile</span>
+            <h3><a href="https://github.com/allamiro/local-cve-api-server" target="_blank" rel="noopener">local-cve-api-server</a></h3>
+            <p>A self-hosted CVE-Search stack (MongoDB 4.4 + Redis 7 + Flask API) on Rocky/RHEL 8 for offline vulnerability lookups in air-gapped networks.</p>
+            <div class="card-footer">
+              <span>Offline CVE lookups</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Python · Ansible</span>
+            <h3><a href="https://github.com/allamiro/pam360-automation" target="_blank" rel="noopener">pam360-automation</a></h3>
+            <p>An enterprise Ansible toolkit—with Bash and Python helpers—that automates ManageEngine PAM360 password operations on RHEL.</p>
+            <div class="card-footer">
+              <span>★ 1 · Privileged access</span>
             </div>
           </article>
         </div>
@@ -95,47 +119,146 @@
     </section>
 
     <section class="section section--alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Data pipelines &amp; observability</h2>
+          <p>Streaming, logging, and monitoring stacks that turn raw events into dependable operational insight.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <span class="pill">Kafka · ELK</span>
+            <h3><a href="https://github.com/allamiro/Data-Pipelines" target="_blank" rel="noopener">Data-Pipelines</a></h3>
+            <p>Guides and configs for designing, installing, and monitoring data pipelines across Kafka, Zookeeper, Hadoop, and the ELK stack.</p>
+            <div class="card-footer">
+              <span>★ 1 · Streaming systems</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">TypeScript · Grafana</span>
+            <h3><a href="https://github.com/allamiro/grafana-network-weathermap-ng" target="_blank" rel="noopener">grafana-network-weathermap-ng</a></h3>
+            <p>A modernized, actively maintained network weathermap panel plugin for Grafana—a continuation of the archived weathermap-panel project.</p>
+            <div class="card-footer">
+              <span>★ 1 · Actively shipping</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Python · Syslog</span>
+            <h3><a href="https://github.com/allamiro/PySyslog" target="_blank" rel="noopener">PySyslog</a></h3>
+            <p>A fast Python syslog processing application with Kafka and Elasticsearch integration for high-throughput log ingestion.</p>
+            <div class="card-footer">
+              <span>★ 1 · Log processing</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Python</span>
+            <h3><a href="https://github.com/allamiro/syslogcef" target="_blank" rel="noopener">syslogcef</a></h3>
+            <p>A focused utility that converts syslog-formatted messages into CEF, complementing the broader log-normalization toolkit.</p>
+            <div class="card-footer">
+              <span>Format conversion</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Automation &amp; infrastructure</h2>
+          <p>Containerized controllers, deployment recipes, and shell tooling that make infrastructure repeatable.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <span class="pill">Docker · Ansible</span>
+            <h3><a href="https://github.com/allamiro/ansible-controller" target="_blank" rel="noopener">ansible-controller</a></h3>
+            <p>An Ubuntu-based Docker image for running Ansible playbooks, with SSH, sudo, and external inventory mounts built in.</p>
+            <div class="card-footer">
+              <span>★ 2 · Actively shipping</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Kubernetes</span>
+            <h3><a href="https://github.com/allamiro/Nextcloud-appstore" target="_blank" rel="noopener">Nextcloud-appstore</a></h3>
+            <p>An air-gapped Kubernetes deployment for the Nextcloud App Store, with Docker Compose staging and local app-archive mirroring.</p>
+            <div class="card-footer">
+              <span>Disconnected environments</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Shell</span>
+            <h3><a href="https://github.com/allamiro/Linux-Scripts" target="_blank" rel="noopener">Linux-Scripts</a></h3>
+            <p>A curated collection of practical Bash scripts for everyday Linux administration, gathered and refined over years of operations work.</p>
+            <div class="card-footer">
+              <span>★ 2 · Sysadmin toolkit</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Shell · Theme</span>
+            <h3><a href="https://github.com/allamiro/dracula4bash" target="_blank" rel="noopener">dracula4bash</a></h3>
+            <p>The Dracula dark theme adapted for Bash—my most-starred community project, credited to the Dracula theme family.</p>
+            <div class="card-footer">
+              <span>★ 12 · Community favorite</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Research, healthcare &amp; systems</h2>
+          <p>Experiments spanning deep learning, medical informatics, and low-level systems programming.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <span class="pill">Deep Learning</span>
+            <h3><a href="https://github.com/allamiro/9mers-structure-prediction" target="_blank" rel="noopener">9mers-structure-prediction</a></h3>
+            <p>Protein structure prediction for CullPDB 9-mer fragments using a multi-input LSTM + dense model—reproducible code accompanying an academic study.</p>
+            <div class="card-footer">
+              <span>Bioinformatics research</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Python · Healthcare</span>
+            <h3><a href="https://github.com/allamiro/QMSH" target="_blank" rel="noopener">QMSH</a></h3>
+            <p>A Quality and Auditing Management System built for hospitals, streamlining compliance tracking and clinical quality workflows.</p>
+            <div class="card-footer">
+              <span>Medical informatics</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Rust · OS</span>
+            <h3><a href="https://github.com/allamiro/FerraOS" target="_blank" rel="noopener">FerraOS</a></h3>
+            <p>An experimental Rust operating system focused on memory safety, concurrency, and modularity for embedded and research computing.</p>
+            <div class="card-footer">
+              <span>Systems programming</span>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">MATLAB</span>
+            <h3><a href="https://github.com/allamiro/MATLAB" target="_blank" rel="noopener">MATLAB</a></h3>
+            <p>A collection of MATLAB scripts and GUI projects drawn from engineering coursework and signal-processing research.</p>
+            <div class="card-footer">
+              <span>Engineering &amp; DSP</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
       <div class="container split-layout">
         <div class="split-primary">
           <div class="section-header">
-            <h2>Repository signals</h2>
-            <p>How I decide which projects stay in rotation and how often they are reviewed.</p>
+            <h2>Browse the full catalogue</h2>
+            <p>These are curated highlights. Dozens more repositories—covering PACS/EMR, CI/CD, scrapers, and cybersecurity notes—live on GitHub, sorted by recent activity.</p>
           </div>
-          <table class="data-table">
-            <thead>
-              <tr>
-                <th>Signal</th>
-                <th>What it means</th>
-                <th>Cadence</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Active shipping</td>
-                <td>Commits landed within the last 60 days and issues triaged weekly.</td>
-                <td>Weekly</td>
-              </tr>
-              <tr>
-                <td>Rotation review</td>
-                <td>Stable repositories that receive maintenance, dependency updates, and documentation refreshes.</td>
-                <td>Monthly</td>
-              </tr>
-              <tr>
-                <td>Archive</td>
-                <td>Experiments preserved for posterity with clear READMEs explaining historical context.</td>
-                <td>As needed</td>
-              </tr>
-            </tbody>
-          </table>
+          <a class="button" href="https://github.com/allamiro?tab=repositories" target="_blank" rel="noopener">Open every repository on GitHub</a>
         </div>
         <aside class="split-secondary">
-          <div class="card">
-            <h3>Browse everything</h3>
-            <p>Want the raw feed? Jump directly to GitHub to explore repositories sorted by recent activity.</p>
-            <a class="post-link" href="https://github.com/allamiro?tab=repositories" target="_blank" rel="noopener">Open GitHub</a>
-          </div>
           <div class="callout">
-            The blog filters out forks automatically, so the posts you see are guaranteed to represent hands-on work.
+            The blog auto-curates my most recently pushed repositories and filters out forks, so it always reflects current hands-on work.
           </div>
         </aside>
       </div>

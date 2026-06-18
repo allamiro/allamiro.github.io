@@ -63,31 +63,61 @@
       <div class="container">
         <div class="section-header">
           <h2>Current focus areas</h2>
-          <p>These flagship projects represent where I invest most of my time today.</p>
+          <p>These flagship repositories represent where I invest most of my time today—each actively maintained and documented on GitHub.</p>
         </div>
         <div class="card-grid">
           <article class="card">
-            <span class="pill">Platform Engineering</span>
-            <h3>Streaming Reliability Toolkit</h3>
-            <p>Automations, Terraform modules, and observability packs that turn Kafka operations into a repeatable practice across environments.</p>
+            <span class="pill">Observability · Grafana</span>
+            <h3>grafana-network-weathermap-ng</h3>
+            <p>A modernized, actively maintained network weathermap panel plugin for Grafana, reviving the archived weathermap-panel with live link metrics and a TypeScript codebase.</p>
             <div class="card-footer">
-              <span>Status: Iterating on alerting best practices</span>
-            </div>
-          </article>
-          <article class="card">
-            <span class="pill">Data Science</span>
-            <h3>Experiment Notebook Library</h3>
-            <p>A curated suite of Jupyter notebooks covering ML prototypes, evaluation dashboards, and reproducible data prep pipelines.</p>
-            <div class="card-footer">
-              <span>Status: Publishing benchmark comparisons</span>
+              <span>Status: Actively shipping</span>
+              <a class="post-link" href="https://github.com/allamiro/grafana-network-weathermap-ng" target="_blank" rel="noopener">View on GitHub</a>
             </div>
           </article>
           <article class="card">
             <span class="pill">Security Automation</span>
-            <h3>Defensive Playbooks</h3>
-            <p>Scripts, runbooks, and containerized labs for exploring secure configurations, threat modeling, and incident response exercises.</p>
+            <h3>pam360-automation</h3>
+            <p>An enterprise Ansible toolkit—with Bash and Python helpers—that automates ManageEngine PAM360 privileged-access and password operations across Red Hat fleets.</p>
             <div class="card-footer">
-              <span>Status: Expanding container security checks</span>
+              <span>Status: Expanding playbook coverage</span>
+              <a class="post-link" href="https://github.com/allamiro/pam360-automation" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Data Engineering</span>
+            <h3>Data-Pipelines</h3>
+            <p>End-to-end guides and configs for designing, installing, and monitoring streaming pipelines across Kafka, Zookeeper, Hadoop, and the ELK stack.</p>
+            <div class="card-footer">
+              <span>Status: Documenting SIEM patterns</span>
+              <a class="post-link" href="https://github.com/allamiro/Data-Pipelines" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Platform · Kubernetes</span>
+            <h3>Nextcloud-appstore</h3>
+            <p>An air-gapped Kubernetes deployment for the Nextcloud App Store, with Docker Compose staging, SSL/TLS, and local app-archive mirroring for disconnected networks.</p>
+            <div class="card-footer">
+              <span>Status: Hardening for air-gapped use</span>
+              <a class="post-link" href="https://github.com/allamiro/Nextcloud-appstore" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Compliance · DevOps</span>
+            <h3>rSCAP</h3>
+            <p>A standardized SCAP compliance-checking and auditing solution for Red Hat–based Linux, mapped to NIST controls for repeatable vulnerability assessment.</p>
+            <div class="card-footer">
+              <span>Status: In rotation</span>
+              <a class="post-link" href="https://github.com/allamiro/rSCAP" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="pill">Research · Deep Learning</span>
+            <h3>9mers-structure-prediction</h3>
+            <p>Protein structure prediction for CullPDB 9-mer fragments using a multi-input LSTM + dense model—reproducible code accompanying an academic study.</p>
+            <div class="card-footer">
+              <span>Status: Research publication</span>
+              <a class="post-link" href="https://github.com/allamiro/9mers-structure-prediction" target="_blank" rel="noopener">View on GitHub</a>
             </div>
           </article>
         </div>
@@ -99,31 +129,36 @@
         <div class="split-primary">
           <div class="section-header">
             <h2>Roadmap at a glance</h2>
-            <p>Active milestones that guide upcoming work across the flagship projects.</p>
+            <p>Active milestones that guide upcoming work across the flagship repositories.</p>
           </div>
           <table class="data-table">
             <thead>
               <tr>
-                <th>Milestone</th>
+                <th>Project</th>
                 <th>Goal</th>
                 <th>Target</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Unified Observability</td>
-                <td>Ship dashboards that monitor Kafka, data pipelines, and model drift together.</td>
-                <td>Q2 2026</td>
+                <td>grafana-network-weathermap-ng</td>
+                <td>Ship a stable Grafana weathermap panel with live link metrics and modern data sources.</td>
+                <td>Actively shipping</td>
               </tr>
               <tr>
-                <td>Notebook Publishing</td>
-                <td>Release reproducible ML experiments with guided tutorials and blog coverage.</td>
-                <td>Monthly cadence</td>
+                <td>pam360-automation</td>
+                <td>Automate PAM360 onboarding and credential rotation end to end on RHEL.</td>
+                <td>Ongoing</td>
               </tr>
               <tr>
-                <td>Security Lab Refresh</td>
-                <td>Update container security scenarios and integrate automated compliance checks.</td>
-                <td>Rolling</td>
+                <td>Nextcloud-appstore</td>
+                <td>Harden the air-gapped Kubernetes deployment and document the mirroring workflow.</td>
+                <td>2026</td>
+              </tr>
+              <tr>
+                <td>9mers-structure-prediction</td>
+                <td>Finalize reproducible research code and publish accompanying results.</td>
+                <td>Research</td>
               </tr>
             </tbody>
           </table>
@@ -131,7 +166,7 @@
         <aside class="split-secondary">
           <div class="card">
             <h3>How to follow along</h3>
-            <p>Every major change lands as a blog entry with context, diagrams, and lessons learned.</p>
+            <p>The blog auto-curates my most recently pushed repositories, so new work shows up there with context and links.</p>
             <a class="post-link" href="./blog/blog.html">Read the latest release notes</a>
           </div>
           <div class="card">
